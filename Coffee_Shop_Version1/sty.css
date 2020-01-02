@@ -1,0 +1,143 @@
+.header {
+    background-image: url("Images/header.jpg");
+    width: 100%;
+    height: 330px;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.header-text {
+    font-size: 50px;
+    color: yellow;
+    position: relative;
+    top: 150px;
+    left: 1%;
+}
+
+.line-header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.line-header img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: -60px;
+}
+
+.line-header a {
+    text-decoration: none;
+    color: black;
+}
+
+.line-header a:hover {
+    background-color: cyan;
+}
+
+.line-header button {
+    background-color: coral;
+    border-radius: 7px;
+    width: 50px;
+    height: 50px;
+}
+
+.line-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.line-center img {
+    width: 200px;
+    height: 200px;
+}
+
+.see-more {
+    margin-left: 50%;
+}
+
+.cafe-container {
+    margin-top: 20px;
+    display: grid;
+    padding: 50px 30px 30px 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.item-cafe {
+    border: 1px solid black;
+    width: 90%;
+    height: 97%;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin: 5px 10px;
+    grid-template-columns: auto auto auto auto;
+    background-color: saddlebrown;
+    transition: all 0.5s ease;
+    text-align: center;
+    border-style: none;
+    vertical-align: middle;
+    line-height: 0.5rem;
+}
+
+.item-cafe img {
+    width: 100%;
+    height: 200px;
+}
+
+.item-cafe:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.item-cafe-icon {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.item-cafe-name {
+    font: bold 20px Helvetica, Arial, Sans-Serif;
+    margin-left: 8px;
+}
+
+.item-cafe-price {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.item-cafe-size {
+    font-size: 18px;
+    margin-left: 8px;
+    font-style: bold;
+    color: whitesmoke;
+}
+
+.item-cafe-edit {
+    background-color: slategray;
+    border-radius: 8px;
+}
+
+.item-cafe-delete {
+    background: slategray;
+    border-radius: 8px;
+}
+
+.item-cafe-order {
+    background-color: crimson;
+    border-radius: 8px;
+}
+
+.item-cafe-save {
+    background-color: cyan;
+    border-radius: 8px;
+}
+
+.line-footer {
+    background-color: darkslategray;
+    color: gainsboro;
+    height: 200px;
+}
