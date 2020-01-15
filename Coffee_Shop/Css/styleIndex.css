@@ -1,0 +1,23 @@
+.line-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+.line-center img {
+    width: 200px;
+    height: 200px;
+}
+
+.line-center p {
+    font-size: medium;
+    font-weight: 100;
+    color: black;
+}
+
+.see-more {
+    margin-left: 50%;
+}

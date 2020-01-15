@@ -1,0 +1,25 @@
+.line-footer {
+    background-color: #4D361B;
+    color: gainsboro;
+    height: 300px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.line-footer-display {
+    display: flex;
+    justify-content: space-between;
+}
+
+.line-footer-icon {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.line-footer-bottom {
+    position: relative;
+    bottom: 0px;
+    font-style: oblique;
+}
